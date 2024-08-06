@@ -1,2 +1,3 @@
 rootProject.name = 'GroovyOtusEducation'
+include 'hw01-gradle'
 
