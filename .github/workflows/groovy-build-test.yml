@@ -32,7 +32,7 @@ jobs:
       uses: gradle/actions/setup-gradle@417ae3ccd767c252f5661f1ace9f835f9654f2b5 # v3.1.0
 
     - name: Chmod Gradle
-      run: chmod 777 ./gradlew 
+      run: chmod -R 777 ./gradlew 
       
     - name: Build with Gradle Wrapper
       run: ./gradlew build
