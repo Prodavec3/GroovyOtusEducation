@@ -2,13 +2,17 @@ package org.example
 
 class ATM implements AtmEmulator {
 
-    def static countATM = 0
+    public def static countATM = 0
 
     def idATM
 
     ATM() {
         this.idATM = countATM
         countATM += 1
+    }
+
+    def getMoneyInAtm() {
+        return moneyInAtm
     }
 
     def moneyInAtm = 0
